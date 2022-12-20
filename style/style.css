@@ -1,0 +1,58 @@
+body {
+    background-color: aliceblue;
+}
+div.div1 {
+    position: relative;
+    top: 50px;
+    right: -700px;
+    border: 3px solid black;
+    width: 375px;
+    margin: 1px;
+
+}
+div.div2 {
+    position: relative;
+    width: 375px;
+    margin: 1px;
+    border: 3px solid black;
+    top: 70px;
+    right: -700px;
+}
+ 
+section {
+    position: relative;
+    top: -700px;
+    background-color: rgb(202, 224, 243);
+    width: 550px;
+    padding: 40px;
+    margin: 20px;
+    border: 5px solid black; ;
+}
+footer{
+    position: relative;
+    top: -650px;
+}
+a.button:link {
+    color:red;
+}
+a.button:visited{
+    color: green;
+}
+a.button:hover{
+    color: blueviolet;
+}
+a.button:active{
+    color: blue;
+}
+a.button1:link {
+    color:red;
+}
+a.button1:visited{
+    color: green;
+}
+a.button1:hover{
+    color: blueviolet;
+}
+a.button1:active{
+    color: blue;
+}

@@ -1,8 +1,24 @@
 body {
-  background-color: aliceblue;
+  background-color: rgba(240, 248, 255, 0.641);
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+  margin: 0px auto;
+  width: 100%;
+  border: 2px solid black;
+  text-align: center;
+}
+nav ul li {
+  float: left;
+
+  list-style: none;
+  margin: 1%;
+}
+ul li {
+  text-align: center;
 }
 header {
   display: flex;
@@ -11,13 +27,16 @@ header {
   justify-content: flex-end;
   justify-content: space-around;
 }
-.div1 {
+form {
+  padding: 10px;
+}
+#div1 {
   border: 2px solid black;
   padding: 2px;
   width: 377px;
   height: 377px;
 }
-.div2 {
+#div2 {
   border: 2px solid black;
   padding: 2px;
   width: 377px;
@@ -29,11 +48,16 @@ section {
   margin: 1px;
   height: 754px;
   border: 3px solid black;
-  background-color: rgb(223, 255, 255);
+  background-color: rgb(221, 238, 253);
 }
 footer {
+  color: white;
+  background-color: rgb(2, 37, 60);
   display: flex;
-  flex-direction: column;
+  line-height: normal;
+}
+footer.strong {
+  flex-direction: row-reverse;
 }
 a.button:link {
   color: red;
@@ -61,9 +85,6 @@ a.button1:active {
 }
 .videos {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-around;
-}
-.videos.cerati {
-  display: flex;
 }

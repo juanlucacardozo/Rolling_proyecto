@@ -1,11 +1,13 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
 body {
   background-color: rgba(240, 248, 255, 0.641);
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  font-family: Arial, Helvetica, sans-serif;
 }
-nav {
+header {
   margin: 0px auto;
   width: 100%;
   border: 2px solid black;
@@ -13,82 +15,12 @@ nav {
 }
 nav ul li {
   float: left;
-
   list-style: none;
   margin: 1%;
 }
 ul li {
-  text-align: center;
-}
-header {
   display: flex;
-  flex-direction: row-reverse;
   justify-content: space-between;
-  justify-content: flex-end;
-  justify-content: space-around;
-}
-form {
-  padding: 10px;
-}
-#div1 {
-  border: 2px solid black;
-  padding: 2px;
-  width: 377px;
-  height: 377px;
-}
-#div2 {
-  border: 2px solid black;
-  padding: 2px;
-  width: 377px;
-  height: 377px;
-}
-section {
-  width: 50%;
-  padding: 5px;
-  margin: 1px;
-  height: 754px;
-  border: 3px solid black;
-  background-color: rgb(221, 238, 253);
-}
-footer {
-  color: white;
-  background-color: rgb(2, 37, 60);
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-a.button:link {
-  color: white;
-}
-a.button:visited {
-  color: white;
-}
-a.button:hover {
-  color: blueviolet;
-}
-a.button:active {
-  color: blue;
-}
-a.button1:link {
-  color: red;
-}
-a.button1:visited {
-  color: green;
-}
-a.button1:hover {
-  color: blueviolet;
-}
-a.button1:active {
-  color: blue;
-}
-.videos {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-.button {
-  text-align: center;
   background-color: rgb(5, 111, 182);
   padding-top: 8px;
   padding-bottom: 8px;
@@ -96,11 +28,50 @@ a.button1:active {
   padding-left: 20px;
   padding-right: 15px;
 }
+.contenido {
+  display: flex;
+}
+.position {
+  position: relative;
+  right: -60%;
+}
+.border2 {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  width: 98%;
+  padding: 1%;
+  height: 100%;
+  border: 3px solid black;
+  background-color: rgb(221, 238, 253);
+}
+.videos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 .pie {
   display: flex;
   align-items: flex-start;
 }
-.pie2 {
+
+.button-interaction:link {
+  color: white;
+}
+.button-interaction:visited {
+  color: white;
+}
+.button-interaction:hover {
+  color: rgb(185, 138, 229);
+}
+.button-interaction:active {
+  color: blue;
+}
+footer {
+  color: white;
+  background-color: rgb(2, 37, 60);
   display: flex;
-  align-items: flex-end;
+  flex-direction: row;
+  justify-content: space-between;
 }
